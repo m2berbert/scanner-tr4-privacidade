@@ -1,6 +1,6 @@
 # Política de Privacidade — Scanner TR4
 
-*Última atualização: 31 de agosto de 2026*
+*Última atualização: 2 de setembro de 2026*
 
 O **Scanner TR4** é um aplicativo de diagnóstico veicular OBD-II. Esta política descreve quais dados o aplicativo coleta, como são usados e quais são seus direitos.
 
@@ -9,6 +9,8 @@ O **Scanner TR4** é um aplicativo de diagnóstico veicular OBD-II. Esta políti
 **Conta Google (login).** O login com Google é usado para identificar sua conta e sincronizar seus dados entre aparelhos. Recebemos do Google: nome, endereço de e-mail e foto de perfil. Não temos acesso à sua senha.
 
 **Dados do veículo.** As leituras do seu veículo (rotação, velocidade, temperaturas, tensão da bateria e demais parâmetros OBD-II), as sessões gravadas, marcas e registros de abastecimento que você criar. Esses dados são seus: ficam armazenados no aparelho e, quando você está logado, na sua área privada em nuvem (Google Firebase/Firestore, com acesso restrito exclusivamente à sua conta).
+
+**Dados anônimos de compatibilidade.** Ao conectar a um adaptador OBD-II, o aplicativo registra, de forma anônima e sem qualquer identificador pessoal ou do veículo, informações técnicas de compatibilidade: versão/ano do modelo informados por você, protocolo de comunicação e parâmetros suportados pela central eletrônica. Esses dados servem exclusivamente para mapear a compatibilidade do aplicativo com as diferentes versões da Pajero TR4.
 
 **Dados de diagnóstico do aplicativo.** Relatórios de erro e falhas do próprio aplicativo (via Sentry), contendo informações técnicas como modelo do aparelho, versão do Android e o contexto do erro. Não incluem seus dados pessoais nem as leituras do veículo.
 
