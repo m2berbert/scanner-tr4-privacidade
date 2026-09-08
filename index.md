@@ -1,6 +1,6 @@
 # Política de Privacidade — Scanner TR4
 
-*Última atualização: 2 de setembro de 2026*
+*Última atualização: 8 de setembro de 2026*
 
 O **Scanner TR4** é um aplicativo de diagnóstico veicular OBD-II. Esta política descreve quais dados o aplicativo coleta, como são usados e quais são seus direitos.
 
@@ -12,11 +12,13 @@ O **Scanner TR4** é um aplicativo de diagnóstico veicular OBD-II. Esta políti
 
 **Dados anônimos de compatibilidade.** Ao conectar a um adaptador OBD-II, o aplicativo registra, de forma anônima e sem qualquer identificador pessoal ou do veículo, informações técnicas de compatibilidade: versão/ano do modelo informados por você, protocolo de comunicação e parâmetros suportados pela central eletrônica. Esses dados servem exclusivamente para mapear a compatibilidade do aplicativo com as diferentes versões da Pajero TR4.
 
+**Trajeto GPS (opcional, desligado por padrão).** Se você ativar "Trajeto GPS" nas configurações, o aplicativo captura sua localização **apenas durante as gravações de sessão** (com notificação visível) para gerar o mapa do trajeto e o perfil de altitude nas suas análises. O trajeto é parte dos dados da sessão: fica no seu aparelho e na sua área privada em nuvem, com acesso restrito exclusivamente à sua conta, e é apagado junto com a sessão ou com a conta. Nunca é usado em segundo plano fora de uma gravação, nunca é compartilhado e você pode desativar a qualquer momento.
+
 **Dados de diagnóstico do aplicativo.** Relatórios de erro e falhas do próprio aplicativo (via Sentry), contendo informações técnicas como modelo do aparelho, versão do Android e o contexto do erro. Não incluem seus dados pessoais nem as leituras do veículo.
 
 ## O que NÃO coletamos
 
-- Localização (o aplicativo não usa GPS)
+- Localização sem seu consentimento (o GPS é opcional, desligado por padrão, e só funciona durante gravações)
 - Contatos, fotos, arquivos ou qualquer outro conteúdo do aparelho
 - Dados para publicidade — o aplicativo não exibe anúncios nem compartilha dados com anunciantes
 
